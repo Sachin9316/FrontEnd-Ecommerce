@@ -2,8 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Protected from "./components/Protected";
 import Navbar from "./components/Navbar";
-// import Products from "./pages/Products";
-// import Category from "./pages/Category";
 const LazyCategory = React.lazy(() => import("./pages/Category"));
 const LazyProducts = React.lazy(() => import("./pages/Products"));
 import Home from "./pages/Home";

@@ -13,7 +13,10 @@ const Navbar = () => {
         <div className="flex gap-x-4 items-center flex-wrap justify-center">
           <NavLink to={"/"}>
             <h2 className="text-xl border-2 p-2 rounded-tr-xl rounded-bl-xl">
-              Sachin <span className="bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-800">Upadhyay</span>
+              Sachin{" "}
+              <span className="bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-800">
+                Upadhyay
+              </span>
             </h2>
           </NavLink>
         </div>
@@ -56,7 +59,6 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             to={"/category"}
-            
             className={({ isActive }) =>
               isActive ? "text-red-500" : "text-white"
             }
